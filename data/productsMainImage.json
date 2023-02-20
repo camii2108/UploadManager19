@@ -1,0 +1,14 @@
+[
+   {
+      "id": 1,
+      "name": "Lamborghini Murciélago",
+      "description": "Lorem ipsum dolor amet sit.",
+      "images": [
+         "1676071704913_products_.jpg",
+         "1676071704934_products_.jpg",
+         "1676071704940_products_.jpg",
+         "1676071704954_products_.jpg"
+      ],
+      "mainImage": "1676071704901_products_.jpg"
+   }
+]

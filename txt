@@ -1,0 +1,23 @@
+En este ejercicio vamos a ocuparnos de:
+
+un proyecto bastante sensillo, un hime donde podremos cargar un producto con 1 sola imagen
+Otra de las secciones va cargar varias imagenes asignadas a un producto.
+Luego pr ultimo subiremos 1 imagen principal y otra a conciencia. 
+
+Cada seccion tiene un boton de agregar, donde podremos "poner nombre al producto y ubir uimagen ". Tendremos 1 o dos inputs tipo file, para subir 1 o varias imagenes dependiendo las eccion. 
+
+en oneImage: tendremos el detalle de producto "nombre de producto y descripcion"
+
+VARIAS IMAGENES:  nombre de producto, desccripcion y la imagen pricnipal, mas las 3 imagenes en miniatura.
+
+IMAGEN PRINCIPAL Y SECUNDARIAS:
+
+Voy a ver un carrusel hecho por boostrap, hecho de la cantidad de imagenes que se me ocurran.
+
+
+--USAMOS LAS TÉCNOLOGIAS: "BOOSTRAP Y EXPRESS Generator"
+
+NPM INSTALL MULTER: para instalar la dependencia, lo sercioramos llendo al package.json
+
+MIDDLEWARE: PROCESO QUE PASAENTRE MEDIO DEL CLIENTE Y LÑA RESPUESTA. eN MEDIO DE ESE PROCESO PUEDEN PASAR MUCHAS COSAS.
+

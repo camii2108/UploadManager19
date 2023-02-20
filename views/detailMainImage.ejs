@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<%- include('./partials/head') %>
+
+  <body class="home">
+    <%- include('./partials/header') %>
+      <main>
+        <section class="row mt-5">
+          <article class="col-12 col-md-8 col-lg-6 mx-auto">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-5">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <% images.forEach((image, index) => { %>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<%= index %>" class="<%= index === 0 ? 'active' : null %>" aria-current="true" aria-label="Slide 1"></button>
+                        <% }) %>
+                     
+                      </div>
+                      <div class="carousel-inner">
+                        <% images.forEach((image,index) => { %>
+                          <div class="carousel-item <%= index === 0 && 'active' %>">
+                            <img src="/images/<%= image %>" class="d-block w-100" alt="...">
+                          </div>
+                        <% }) %>
+                        
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  
+                  </div>
+                  <div class="col-7 d-flex flex-column justify-content-between">
+                    <div>
+                    <h5 class="card-title">
+                      <%= name %>
+                    </h5>
+                    <hr>
+                    <p class="card-text">
+                      <%= description%>
+                    </p>
+                </div>
+               
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous"></script>
+  </body>
+
+</html>

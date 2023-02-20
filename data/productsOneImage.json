@@ -1,0 +1,26 @@
+[
+   {
+      "id": 1,
+      "name": "Zapatillas Fila",
+      "description": "Lorem ipsum dolor amet sit.",
+      "image": "1675985120210_products_.webp"
+   },
+   {
+      "id": 2,
+      "name": "Auriculares Adidas",
+      "description": "Lorem ipsum dolor amet sit.",
+      "image": "1675986013144_products_.jpg"
+   },
+   {
+      "id": 3,
+      "name": "Lavarropa Dream",
+      "description": "Lorem ipsum dolor amet sit.",
+      "image": "1675986086725_products_.webp"
+   },
+   {
+      "id": 4,
+      "name": "",
+      "description": "Lorem ipsum dolor amet sit.",
+      "image": "1676905444524_products_.png"
+   }
+]
